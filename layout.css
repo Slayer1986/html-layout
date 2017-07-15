@@ -1,0 +1,88 @@
+@charset 'UTF-8';
+
+html,
+html *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial, sans-serif;
+    font-size: 1vw;
+    background: #31302e; 
+}
+/*HEADER*/
+header{
+    width: 100%;
+    position: fixed;
+    padding: 2em;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background: #31302e;
+}
+/*NAV*/
+nav{
+    width: 30%;
+    height: 1.5em;
+    background: #eeeb4e;
+    z-index: 400;
+    top: 0;
+    left: 0;
+    opacity: .95;
+    position: relative;
+    display: block !important;
+    float: right;
+    padding: .75em 1em 0 0;
+}
+/* HERO */
+.hero{
+    height: 54vw;
+    background: #ec576b;
+    position: relative;
+    padding: 9em 6em 5em;
+}
+/* INTRO */
+.intro{
+    height: 30vw;
+    background: #b4dbc0; 
+}
+/* ARTWORKS */
+.artworks{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.artwork{
+    display: flex;
+}
+
+.artwork .artwork-piece{
+    padding: 8% 0 8% 23.5%;
+    background-image:-moz-linear-gradient( 135deg, #81FBB8 0%, #28C76F 100%);
+    background-image: -webkit-linear-gradient( 135deg, #81FBB8 0%, #28C76F 100%);
+    background-image: -ms-linear-gradient( 135deg, #81FBB8 0%, #28C76F 100%);
+    width: 50%;
+}
+
+.artwork figure{
+    position: relative;
+    vertical-align: middle;
+    padding: 50% 10%;
+    background: #efeffc;
+}
+
+.artwork .artwork-description{
+    width: 50%;
+    background: #339;
+   /* background: url('http://pngimg.com/uploads/number0/number0_PNG19187.png');*/
+    padding: 11.25em 10em 11.5em;
+}
+/*FOOTER*/
+footer{
+    height: 10vw;
+    margin-top: -3em;
+    padding: 8.75em 0 2em;
+    background: #31302e;
